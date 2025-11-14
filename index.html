@@ -19,11 +19,13 @@
     sourceWidth="800" sourceHeight="600" displayWidth="1280" displayHeight="720">
 
     <a-assets>
-      <img id="img" src="./assets/logo_ecole_1_coul_defonce_noir.png"
-    </a-assets>
+      <img id="transparent_image" src="./assets/logo_ecole_1_coul_defonce_noir.png">
+    </a-assets> 
       
         <a-marker type='barcode' value='0'>
-   
+
+          <a-image src="#transparent_image" position = "0 0 -1" rotation="90 0 0" width="2" height="2"></a-image>
+
             <a-text value="Zalcow !" 
             side="double" position = "0 0 -1" rotation="270 0 0" 
             width="8"
